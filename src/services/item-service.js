@@ -3,7 +3,7 @@ import { mockItems } from "../assets/mock";
 
 class ItemService {
     getAll() {
-        // return http.get("/items");
+        // return http.get("/items/all");
         return Promise.resolve({ data: mockItems });
     }
     get(id) {
